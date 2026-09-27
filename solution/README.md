@@ -222,13 +222,14 @@ solution/
 
 The offline test suite (101 tests, including the MCP server tests) passes on two dependency sets, both on Python 3.11.9:
 
-| | `requirements.txt` (pinned, used for the evaluation) | `requirements-min.txt` (the starter's floor) |
+| | `requirements.txt` (pinned, used for the evaluation; Python 3.11+) | `requirements-min.txt` (the starter's floor; Python 3.10+) |
 |---|---|---|
 | langgraph | 1.2.12 | 0.5.4 |
 | langchain-core / langchain-openai | 1.6.5 / 1.6.6 | 0.3.72 / 0.3.28 |
 | fastmcp / mcp | 4.0.10 / 2.2.0 | 2.10.6 / 1.12.4 |
 | langgraph-checkpoint-sqlite | 3.1.1 | 2.0.11 |
 | SQLAlchemy / pydantic | 2.1.1 / 2.13.5 | 2.0.41 / 2.11.10 |
+| pandas | 3.0.6 | 2.2.3 |
 
 Note for older environments: `fastmcp 2.10` fails at import with `pydantic >= 2.12`, and it needs `mcp 1.x`.
 If that combination is broken, UDA-Hub detects that the MCP server did not start and falls back to

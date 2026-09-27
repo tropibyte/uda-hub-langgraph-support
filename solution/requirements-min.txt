@@ -1,5 +1,6 @@
 # UDA-Hub - minimum versions (the starter's floor), also tested: all 101 offline tests pass.
-# Use this set if your environment already has the older stack (e.g. a course workspace).
+# Use this set if your environment already has the older stack (e.g. a course workspace). Works on Python 3.10+;
+# requirements.txt needs Python 3.11+ (SQLAlchemy 2.1).
 # fastmcp 2.10 needs mcp 1.x and pydantic < 2.12 (newer pydantic breaks fastmcp 2.10 at import).
 fastmcp==2.10.6
 httpx==0.28.1
@@ -14,7 +15,7 @@ langgraph-checkpoint-sqlite==2.0.11
 langgraph-supervisor==0.0.28
 mcp==1.12.4
 openai==1.109.1
-pandas==3.0.6
+pandas==2.2.3
 pydantic==2.11.10
 pytest==9.1.1
 python-dotenv==1.1.1
