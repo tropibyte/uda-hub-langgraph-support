@@ -10,3 +10,4 @@ __pycache__/
 *.db-shm
 *.db-journal
 .env
+*.zip
