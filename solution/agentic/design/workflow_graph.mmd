@@ -1,0 +1,44 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	intake(intake)
+	classifier(classifier)
+	knowledge_retriever(knowledge_retriever)
+	supervisor(supervisor)
+	knowledge_resolver(knowledge_resolver)
+	account_specialist(account_specialist)
+	billing_specialist(billing_specialist)
+	qa_reviewer(qa_reviewer)
+	escalation(escalation)
+	responder(responder)
+	memory_curator(memory_curator)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> intake;
+	account_specialist --> supervisor;
+	billing_specialist --> supervisor;
+	classifier --> knowledge_retriever;
+	escalation --> responder;
+	intake -.-> classifier;
+	intake -.-> escalation;
+	intake -.-> responder;
+	knowledge_resolver --> supervisor;
+	knowledge_retriever --> supervisor;
+	qa_reviewer -.-> account_specialist;
+	qa_reviewer -.-> billing_specialist;
+	qa_reviewer -.-> escalation;
+	qa_reviewer -.-> knowledge_resolver;
+	qa_reviewer -.-> responder;
+	responder --> memory_curator;
+	supervisor -.-> account_specialist;
+	supervisor -.-> billing_specialist;
+	supervisor -.-> escalation;
+	supervisor -.-> knowledge_resolver;
+	supervisor -.-> qa_reviewer;
+	memory_curator --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

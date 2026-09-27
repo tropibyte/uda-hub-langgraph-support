@@ -1,0 +1,27 @@
+# UDA-Hub - Python 3.11 (tested on 3.11.9, Windows 11 and Linux)
+# Exact versions used to build, test and evaluate the submission.
+# The code is also tested against the starter's minimum versions
+# (langgraph 0.5.4, langchain-core 0.3.72, fastmcp 2.10.6, ...): see README "Compatibility".
+
+# --- starter requirements (pinned) ---
+fastmcp==4.0.10
+httpx==0.28.1
+ipykernel==7.3.0
+langchain==1.4.2
+langchain-core==1.6.5
+langchain-mcp-adapters==0.3.1
+langchain-openai==1.6.6
+langgraph-supervisor==0.0.31
+langgraph==1.2.12
+python-dotenv==1.2.3
+sqlalchemy==2.1.1
+
+# --- added by this project ---
+langgraph-checkpoint-sqlite==3.1.1   # persistent short-term memory (SqliteSaver); falls back to MemorySaver if absent
+mcp==2.2.0                           # MCP client session (installed with fastmcp; pinned for reproducibility)
+openai==3.19.2
+pydantic==2.13.5
+pandas==3.0.6                        # tables in 03_agentic_app.ipynb
+pytest==9.1.1                        # test-suite
+nbformat==5.11.1                     # notebook tooling
+nbconvert==7.17.1

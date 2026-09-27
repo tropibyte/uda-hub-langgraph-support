@@ -1,0 +1,38 @@
+{
+  "rules_first": {
+    "tickets": 32,
+    "category_accuracy": 0.969,
+    "route_accuracy": 1.0,
+    "outcome_accuracy": 1.0,
+    "team_accuracy": 1.0,
+    "escalation_precision": 1.0,
+    "escalation_recall": 1.0,
+    "article_hit_rate": 1.0,
+    "article_cited_rate": 1.0,
+    "tool_accuracy": 1.0,
+    "grounded_resolution_rate": 1.0,
+    "avg_confidence": 0.969,
+    "avg_judge_score": 1.0,
+    "avg_latency_s": 12.37,
+    "avg_llm_calls": 3.56,
+    "all_checks_passed": 31
+  },
+  "llm_supervisor": {
+    "tickets": 32,
+    "category_accuracy": 1.0,
+    "route_accuracy": 1.0,
+    "outcome_accuracy": 1.0,
+    "team_accuracy": 1.0,
+    "escalation_precision": 1.0,
+    "escalation_recall": 1.0,
+    "article_hit_rate": 1.0,
+    "article_cited_rate": 1.0,
+    "tool_accuracy": 1.0,
+    "grounded_resolution_rate": 1.0,
+    "avg_confidence": 0.969,
+    "avg_judge_score": 1.0,
+    "avg_latency_s": 13.24,
+    "avg_llm_calls": 4.28,
+    "all_checks_passed": 32
+  }
+}

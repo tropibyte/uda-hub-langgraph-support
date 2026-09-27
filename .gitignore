@@ -1,0 +1,12 @@
+.venv/
+.venv-floor/
+_course/
+dev/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+.env

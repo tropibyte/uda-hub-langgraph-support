@@ -1,0 +1,12 @@
+# secrets
+.env
+# generated databases (recreate with notebooks 01 and 02, or scripts/setup_databases.py)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+# runtime logs (a sample run is committed under logs/samples/)
+logs/*.jsonl
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/

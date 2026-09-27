@@ -1,0 +1,44 @@
+{"query": "I can't log in, the password reset email never arrives", "expected": "How to Handle Login Issues?", "category": "login_access"}
+{"query": "my card was declined when renewing", "expected": "Payment Failed or Card Declined", "category": "billing_payment"}
+{"query": "I was charged twice this month", "expected": "Double Charge or Unrecognized Charge", "category": "billing_payment"}
+{"query": "can I get my money back for last month?", "expected": "Refund Policy and Refund Requests", "category": "refund_request"}
+{"query": "how do I change the card I pay with", "expected": "Updating Your Payment Method or Billing Date", "category": "billing_payment"}
+{"query": "I got a gift card code, where do I put it", "expected": "Gift Cards and Corporate Plans", "category": "general_inquiry"}
+{"query": "what's the difference between basic and premium", "expected": "CultPass Plans: Basic vs Premium", "category": "subscription_management"}
+{"query": "I want to upgrade my plan", "expected": "Upgrading or Downgrading Your Plan", "category": "subscription_management"}
+{"query": "do unused experiences roll over to next month?", "expected": "How the Monthly Experience Quota Works", "category": "subscription_management"}
+{"query": "how do I restart my paused membership", "expected": "Reactivating a Paused or Cancelled Subscription", "category": "subscription_management"}
+{"query": "I need to cancel my booking for Saturday", "expected": "Cancelling a Reservation and the No-Show Policy", "category": "reservation_change"}
+{"query": "the event I want is full", "expected": "Event Sold Out and the Waitlist", "category": "reservation_booking"}
+{"query": "why is there an extra fee on this event", "expected": "Premium Experiences and Extra Fees", "category": "reservation_booking"}
+{"query": "can my friend go in my place?", "expected": "Transferring or Sharing a Reservation", "category": "reservation_change"}
+{"query": "the concert was cancelled by the venue, what happens now", "expected": "Event Cancelled or Rescheduled by the Partner", "category": "reservation_change"}
+{"query": "the entrance scanner won't read my ticket", "expected": "QR Code Not Scanning at the Venue", "category": "technical_issue"}
+{"query": "the app keeps crashing on my android", "expected": "App Crashes, Freezes or Won't Load", "category": "technical_issue"}
+{"query": "I'm not getting any notifications", "expected": "Not Receiving Emails or Notifications", "category": "technical_issue"}
+{"query": "how do I update my email address", "expected": "Changing Your Email Address or Profile Details", "category": "account_management"}
+{"query": "my account says it is suspended", "expected": "Account Blocked or Suspended", "category": "account_management"}
+{"query": "please delete all my data", "expected": "Deleting Your Account and Personal Data Requests", "category": "privacy_request"}
+{"query": "someone else is using my account", "expected": "Suspicious Activity and Account Security", "category": "account_security"}
+{"query": "is the museum wheelchair accessible?", "expected": "Accessibility and Special Assistance at Experiences", "category": "general_inquiry"}
+{"query": "is CultPass available in Curitiba?", "expected": "Where CultPass Is Available and How Experiences Are Chosen", "category": "general_inquiry"}
+{"query": "a staff member harassed me at the show", "expected": "Reporting a Problem or Safety Incident at a Venue", "category": "safety_incident"}
+{"query": "I want to talk to a real person", "expected": "When and How Support Escalates to a Human Agent", "category": "other"}
+{"query": "how do I book an event", "expected": "How to Reserve a Spot for an Event", "category": "reservation_booking"}
+{"query": "how many experiences do I get per month", "expected": "What's Included in a CultPass Subscription", "category": "general_inquiry"}
+{"query": "how can I cancel my subscription", "expected": "How to Cancel or Pause a Subscription", "category": "subscription_management"}
+{"query": "how much does premium cost compared to basic", "expected": "CultPass Plans: Basic vs Premium", "category": "subscription_management"}
+{"query": "I never got the confirmation email for my booking", "expected": "Not Receiving Emails or Notifications", "category": "technical_issue"}
+{"query": "the venue moved my concert to another date and I can't go", "expected": "Event Cancelled or Rescheduled by the Partner", "category": "reservation_change"}
+{"query": "can I still get my credit back if I cancel tomorrow's show?", "expected": "Cancelling a Reservation and the No-Show Policy", "category": "reservation_change"}
+{"query": "there are bookings on my account that I never made", "expected": "Suspicious Activity and Account Security", "category": "account_security"}
+{"query": "I want my money back for this month", "expected": "Refund Policy and Refund Requests", "category": "refund_request"}
+{"query": "I can't sign in anymore", "expected": "How to Handle Login Issues?", "category": "login_access"}
+{"query": "I can't log in to my Cultpass account.", "expected": "How to Handle Login Issues?", "category": "login_access"}
+{"query": "Can you recommend a good pizza recipe?", "expected": null, "category": "other"}
+{"query": "What's the weather forecast in Rio tomorrow?", "expected": null, "category": "other"}
+{"query": "Do you sell airline tickets to Lisbon?", "expected": null, "category": "general_inquiry"}
+{"query": "Can you help me with my tax return?", "expected": null, "category": "other"}
+{"query": "Who won the football match last night?", "expected": null, "category": "other"}
+{"query": "Is my car insurance still valid?", "expected": null, "category": "other"}
+{"query": "Write me a poem about the ocean", "expected": null, "category": "other"}
